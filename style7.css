@@ -1,0 +1,38 @@
+.container {
+    width: 700px;
+    height: 394px;
+    position: relative;
+    background-color: black;
+}
+
+.image {
+    width: 700px;
+    height: 394px;
+    display: inherit;
+}
+
+.plus {
+    font-size: 200%;
+    color: red;
+    position: absolute;
+    top: 190px;
+    left: 335px;
+    display: none;
+}
+
+.container:hover .plus {
+    display: inherit;
+}
+
+.container:hover .image {
+    opacity: 0.5;
+    transform: scale(2, 2);
+    /* transform: translate(20px, 20px); */
+    /* transform: rotate(45deg); */
+}
+
+.fig_0 .image {
+    display: block;
+    width: 100%;
+    transition: transform 1s;
+}

@@ -1,0 +1,34 @@
+.container {
+    width: 700px;
+    height: 394px;
+    position: relative;
+    /* background-color: turquoise; */
+}
+
+.image {
+    width: 700px;
+    height: 394px;
+    display: inherit;
+}
+
+.carre {
+    width: 600px;
+    height: 100px;
+    background-color: black;
+    position: absolute;
+    top: 150px;
+    display: none;
+}
+
+.texte {
+    text-align: left;
+    color: white;
+}
+
+.container:hover .carre {
+    display: inherit;
+}
+
+.container:hover .image {
+    opacity: 0.5;
+}

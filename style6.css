@@ -1,0 +1,44 @@
+.container {
+    width: 700px;
+    height: 394px;
+    position: relative;
+    /* background-color: turquoise; */
+}
+
+.image {
+    width: 700px;
+    height: 394px;
+    display: inherit;
+    transition: opacity 1s;
+}
+
+.carre {
+    width: 600px;
+    height: 100px;
+    background-color: black;
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    display: none;
+    transition: background-color 3s, border 1s, ;
+    border: darkcyan solid 4px;
+}
+
+.carre:hover {
+    background-color: turquoise;
+    border: red solid 4px;
+}
+
+.texte {
+    text-align: center;
+    color: white;
+}
+
+.container:hover .carre {
+    display: inherit;
+    opacity: 0.7;
+}
+
+.container:hover .image {
+    opacity: 0.5;
+}

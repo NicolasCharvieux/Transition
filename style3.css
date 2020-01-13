@@ -1,0 +1,49 @@
+.container {
+    width: 700px;
+    height: 394px;
+    position: relative;
+    /* background-color: turquoise; */
+}
+
+.image {
+    width: 700px;
+    height: 394px;
+    display: inherit;
+}
+
+.carre {
+    width: 600px;
+    height: 100px;
+    background-color: black;
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    display: none;
+}
+
+.texte {
+    text-align: center;
+    color: white;
+}
+
+
+/* .plus {
+    font-size: 200%;
+    color: red;
+    position: absolute;
+    top: 190px;
+    left: 335px;
+    display: none;
+}
+
+.container:hover .plus {
+    display: inherit;
+} */
+
+.container:hover .carre {
+    display: inherit;
+}
+
+.container:hover .image {
+    opacity: 0.5;
+}

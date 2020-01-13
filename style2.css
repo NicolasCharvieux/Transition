@@ -1,0 +1,28 @@
+.container {
+    width: 600px;
+    height: 600px;
+    background-color: grey;
+    position: relative;
+    display: inherit;
+}
+
+.carre {
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    display: inherit;
+}
+
+.carre2 {
+    width: 100px;
+    height: 100px;
+    background-color: darkblue;
+    position: absolute;
+    top: 250px;
+    left: 250px;
+    display: none;
+}
+
+.container:hover .carre2 {
+    display: inherit;
+}
